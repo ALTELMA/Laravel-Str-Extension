@@ -1,0 +1,30 @@
+{
+    "name": "altelma/laravel-str-extension",
+    "description": "Extending Laravel String helper",
+    "type": "library",
+    "keywords": [
+        "laravel",
+        "string",
+        "php"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ALTELMA",
+            "email": "nrohtgnohp@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Altelma\\LaravelStrExtension\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Altelma\\LaravelStrExtension\\LaravelStrExtensionServiceProvider"
+            ]
+        }
+    }
+}
